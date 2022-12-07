@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Audio on Void Linux | Abyssarch</title>
+    <link rel="canonical" href="https://Abyssarch.tech/" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Abyssarch RSS"
+      href="/index.xml"
+    />
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+    <link rel="icon" href="/pf.webp" />
+    <meta
+      name="description"
+      content="Void Linux is the best Linux distro I had ever used. It&rsquo;s fast, simple, it has its own package manager (holy shit, it is awesome) and a small but growing community. It has been used by many ricers because of it&rsquo;s simplicity."
+    />
+
+    <meta name="keywords" content="linux , guides" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="index, follow" />
+    <meta charset="utf-8" />
+  </head>
+
+  <body>
+    <script src="/main.js" type="text/javascript"></script>
+    <div class="container">
+      <div id="header">
+        <nav id="nav">
+          <a href="/" id="profile">
+            <img src="/pf.webp" alt="" width="40" height="40" />
+            <b>Abyssarch</b>
+          </a>
+          <div id="nav-items">
+            <a href="/project/posts.html">Projects</a>
+            <a href="/posts">Posts</a>
+            <a href="/tags/">Category</a>
+            <a href="/about">About</a>
+            <a href="/contacts/">Contact</a>
+            <a href="/settings">Settings</a>
+          </div>
+        </nav>
+
+        <div id="breadcrumbs">
+          <a href="/">Home</a>&nbsp;»&nbsp;<a href="/a">A</a>
+        </div>
+      </div>
+
+      <div id="main">
+        <div class="article">
+          <h1 id="title">Audio on Void Linux</h1>
+          <p>
+            Void Linux is the best Linux distro I had ever used. It&rsquo;s
+            fast, simple, it has its own package manager (holy shit, it is
+            awesome) and a small but growing community. It has been used by many
+            ricers because of it&rsquo;s simplicity. That is why I chose Void as
+            an alternative to Artix (non-systemd Arch). Everything Void provides
+            should work right out of the box. But you know what doesn&rsquo;t?
+            It&rsquo;s the audio.
+          </p>
+          <h2 id="alsa">ALSA</h2>
+          <p>
+            This is old, it was initially released in 1998, but it is still
+            being updated and used by Linux community. It provides an API for
+            sound card device drives and a part of the Linux kernel. You could
+            use it directly, but I recommend not to since there are many sound
+            servers that was built on top of ALSA and they provide easier
+            configuration and more options for users.
+          </p>
+          <p>
+            It&rsquo;s installation process is actually straight-forward. At
+            first, add yourself into the <code>audio</code> group.
+          </p>
+          <pre tabindex="0"><code>sudo usermod -aG audio &lt;user&gt; 
+</code></pre>
+          <p>Install the dependencies:</p>
+          <pre tabindex="0"><code>sudo 
+</code></pre>
+          <div id="tags">
+            <a href="/tags/linux/">linux</a>
+            <a href="/tags/guides/">guides</a>
+          </div>
+          <nav id="quicknav">
+            <a id="prev" href="">
+              <span class="title">« PREV</span>
+              <br />
+              <span>Is this website good yet?</span>
+            </a>
+          </nav>
+        </div>
+      </div>
+      <div class="footer">
+        <small>Abyssarch Made with Hugo. <a href=""></a></small>
+        <br />
+        <small>
+          <a href="https://www.youtube.com/watch?v=3VJaJaa8Aco"
+            >Relax?
+          </a></small
+        >
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,7 +1,9 @@
 * {
     box-sizing: border-box;
   }
-  
+  .contact-icon img{
+    filter: invert(1);
+  }
   :root {
     --base: #11111b;
     --crust: #1e1e2e;
